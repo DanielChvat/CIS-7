@@ -20,20 +20,30 @@ This course is an introduction to the discrete structures used in Computer Scien
 
 - **Daniel Chvat**
 
+### Date Published
+
+- December 9, 2023
+
 ### Project Description
 
 The goal of this project was to implement discrete structures concepts learned throughout the semester to create a program which can do Vigenere Cipher Encryption and Decryption.
 
 ### Reference Table
 
-[!Reference Table]][Reference Table]
+[![Reference Table]][Reference Table]
 
 [Reference Table]: https://github.com/DanielChvat/CIS-7/blob/master/misc/Cipher_Table.JPG
 
 ### Encryption
 
-Let the plaintext character at a given index be denoted by ${P_i}$, the corresponding key character be denoted by ${K_i}$ and the encrypted character be denoted by ${E_i}$. ${E_i} is found using the following formula:
+Let the plaintext character at a given index be denoted by ${P_i}$, the corresponding key character be denoted by ${K_i}$ and the encrypted character be denoted by ${E_i}$. ${E_i}$ is found using the following formula:
 
 ${E_i} = {(P_i + K_i) \mod 26}$ 
+
+### Decryption
+
+Let the encrypted character at a given index be denoted by ${E_i}$, the corresponding key character be denoted by ${K_i}$ and the decrypted character be denoted by ${D_i}$. ${E_i}$ is found using the following formula:
+
+${D_i} = {(E_i - K_i + 26) \mod 26}$ 
 
 
