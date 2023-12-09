@@ -38,7 +38,7 @@ int main(void){
             case 'E':
                 std::cout << "Text to be Encrypted: ";
                 std::cin >> original;
-                std::cout << "Key to Encrypt with : ";
+                std::cout << "Key to Encrypt with: ";
                 std::cin >> key;
                 encrypted = encrypt(original, key);
                 std::cout << "Encrypted Text: " << encrypted << std::endl << std::endl;
@@ -46,7 +46,7 @@ int main(void){
             case 'D':
                 std::cout << "Text to be Decrypted: ";
                 std::cin >> original;
-                std::cout << "Key to Decrypt with : ";
+                std::cout << "Key to Decrypt with: ";
                 std::cin >> key;
                 decrypted = decrypt(original, key);
                 std::cout << "Decrypted Text: " << decrypted << std::endl << std::endl;

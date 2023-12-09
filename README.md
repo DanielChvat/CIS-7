@@ -46,4 +46,36 @@ Let the encrypted character at a given index be denoted by ${E_i}$, the correspo
 
 ${D_i} = {(E_i - K_i + 26) \mod 26}$ 
 
+## Instructions
+
+### Encryption
+
+When the Program starts the user is presented the following prompt:
+
+```sh
+Vigenere Cypher Program
+-----------------------
+Please type E for Encrypt | D for Decrypt | Anything Else to Exit: 
+```
+
+If the user types the letter E in either lower or upper case the program enters `encryption mode`. The user is then presented the prompt:
+
+```sh
+Text to be Encrypted: 
+```
+
+The user must type the plaintext string they wish to encrypt after the `:` and is then presented the prompt:
+
+```sh
+Key to Encrypt with: 
+```
+
+The user must type the key they wish to encrypt the previously entered text with after the `:`. The program then outputs:
+
+```sh
+Encrypted Text: 
+```
+
+With the encrypted version of the text following the `:`.
+
 
