@@ -52,30 +52,137 @@ ${D_i} = {(E_i - K_i + 26) \mod 26}$
 
 When the Program starts the user is presented the following prompt:
 
-```sh
+```
 Vigenere Cypher Program
 -----------------------
 Please type E for Encrypt | D for Decrypt | Anything Else to Exit: 
 ```
 
-If the user types the letter E in either lower or upper case the program enters `encryption mode`. The user is then presented the prompt:
+If the user types the letter `E` in either lower or upper case the program enters `Encryption Mode`. The user is then presented the prompt:
 
-```sh
+```
 Text to be Encrypted: 
 ```
 
 The user must type the plaintext string they wish to encrypt after the `:` and is then presented the prompt:
 
-```sh
+```
 Key to Encrypt with: 
 ```
 
 The user must type the key they wish to encrypt the previously entered text with after the `:`. The program then outputs:
 
-```sh
+```
 Encrypted Text: 
 ```
 
-With the encrypted version of the text following the `:`.
+With the Encrypted text following the `:`.
+
+### Decryption
+
+When the Program starts the user is presented the following prompt:
+
+```
+Vigenere Cypher Program
+-----------------------
+Please type E for Encrypt | D for Decrypt | Anything Else to Exit: 
+```
+
+If the user types the letter `D` in either lower or upper case the program enters `Decryption Mode`. The user is then presented the prompt:
+
+```
+Text to be Decrypted: 
+```
+
+The user must type the plaintext string they wish to decrypt after the `:` and is then presented the prompt:
+
+```
+Key to Decrypt with: 
+```
+
+The user must type the key they wish to encrypt the previously entered text with after the `:`. The program then outputs:
+
+```
+Decrypted Text: 
+```
+
+With the Decrypted Text following the `:`.
+
+### Exiting Program
+
+When the Program starts the user is presented the following prompt:
+
+```
+Vigenere Cypher Program
+-----------------------
+Please type E for Encrypt | D for Decrypt | Anything Else to Exit: 
+```
+
+If the user types anything other than the letters `E` and `D` in either lower or upper case the program exits 
+
+## Sample Inputs and Outputs
+
+### Encryption Testcase 1
+
+```
+**Input**:  GEEKSFORGEEKS
+
+**Key**:    AYUSH
+
+**Output**: CYCZFMLYLEIM
+```
+
+### Encryption Testcase 2
+
+```
+**Input**:  DANIELCHVAT
+
+**Key**:    NGUYEN
+
+**Output**: QGHGIYPNPYX
+```
+
+### Encryption Testcase 3
+
+```
+**Input**:  morenovalleycollege
+
+**Key**:    rccd
+
+**Output**: dqtheqxdcngbtqnovig
+```
+
+### Decryption Testcase 1
+
+```
+**Input**:  CYCZFMLYLEIM
+
+**Key**:    AYUSH
+
+**Output**: GEEKSFORGEEKS
+```
+
+### Decryption Testcase 2
+
+```
+**Input**:  QGHGIYPNPYX
+
+**Key**:    NGUYEN
+
+**Output**: DANIELCHVAT
+```
+
+### Decryption Testcase 3
+
+```
+**Input**:  dqtheqxdcngbtqnovig
+
+**Key**:    rccd
+
+**Output**: morenovalleycollege
+```
+
+
+
 
 
