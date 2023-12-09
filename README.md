@@ -46,9 +46,9 @@ Let the encrypted character at a given index be denoted by ${E_i}$, the correspo
 
 ${D_i} = {(E_i - K_i + 26) \mod 26}$ 
 
-## Instructions
+# Instructions
 
-### Encryption
+## Encryption
 
 When the Program starts the user is presented the following prompt:
 
@@ -78,7 +78,7 @@ Encrypted Text:
 
 With the Encrypted text following the `:`.
 
-### Decryption
+## Decryption
 
 When the Program starts the user is presented the following prompt:
 
@@ -108,7 +108,7 @@ Decrypted Text:
 
 With the Decrypted Text following the `:`.
 
-### Exiting Program
+## Exiting Program
 
 When the Program starts the user is presented the following prompt:
 
@@ -120,68 +120,10 @@ Please type E for Encrypt | D for Decrypt | Anything Else to Exit:
 
 If the user types anything other than the letters `E` and `D` in either lower or upper case the program exits 
 
-## Sample Inputs and Outputs
-
-### Encryption Testcase 1
-
-```
-**Input**:  GEEKSFORGEEKS
-
-**Key**:    AYUSH
-
-**Output**: CYCZFMLYLEIM
-```
-
-### Encryption Testcase 2
-
-```
-**Input**:  DANIELCHVAT
-
-**Key**:    NGUYEN
-
-**Output**: QGHGIYPNPYX
-```
-
-### Encryption Testcase 3
-
-```
-**Input**:  morenovalleycollege
-
-**Key**:    rccd
-
-**Output**: dqtheqxdcngbtqnovig
-```
-
-### Decryption Testcase 1
-
-```
-**Input**:  CYCZFMLYLEIM
-
-**Key**:    AYUSH
-
-**Output**: GEEKSFORGEEKS
-```
-
-### Decryption Testcase 2
-
-```
-**Input**:  QGHGIYPNPYX
-
-**Key**:    NGUYEN
-
-**Output**: DANIELCHVAT
-```
-
-### Decryption Testcase 3
-
-```
-**Input**:  dqtheqxdcngbtqnovig
-
-**Key**:    rccd
-
-**Output**: morenovalleycollege
-```
-
+## Links
+- [Source Code](src/main.cpp)
+- [Testcases](misc/TESTCASES.md)
+- [Documentation](misc/Documentation.pdf)
 
 
 
