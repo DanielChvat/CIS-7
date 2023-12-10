@@ -29,7 +29,7 @@ int main(void){
         char choice = '\0';
         std::string original, key, encrypted, decrypted;
     do{
-        std::cout << "Vigenere Cypher Program" << std::endl;
+        std::cout << "Vigenere Cipher Program" << std::endl;
         std::cout << "-----------------------" << std::endl;
         std::cout << "Please type E for Encrypt | D for Decrypt | Anything Else to Exit: ";
         std::cin >> choice;

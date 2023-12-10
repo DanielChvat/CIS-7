@@ -124,6 +124,7 @@ If the user types anything other than the letters `E` and `D` in either lower or
 - [Source Code](src/main.cpp)
 - [Testcases](misc/TESTCASES.md)
 - [Documentation](misc/Documentation.pdf)
+- [Compiling Instructions](misc/COMPILING.md)
 
 
 
