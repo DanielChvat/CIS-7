@@ -7,7 +7,7 @@ Input:  GEEKSFORGEEKS
 
 Key:    AYUSH
 
-Output: CYCZFMLYLEIM
+Output: GCYCZFMLYLEIM
 ```
 
 ## Encryption Testcase 2
@@ -33,7 +33,7 @@ Output: dqtheqxdcngbtqnovig
 ## Decryption Testcase 1
 
 ```
-Input:  CYCZFMLYLEIM
+Input:  GCYCZFMLYLEIM
 
 Key:    AYUSH
 
